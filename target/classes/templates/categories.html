@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      th:replace="~{layout :: content}">
+
+<div>
+    <h1>Categories</h1>
+
+    <ul>
+        <li th:each="cat : ${categories}">
+            <span th:text="${cat.name}"></span>
+        </li>
+    </ul>
+</div>
+
+</html>
