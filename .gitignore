@@ -1,0 +1,30 @@
+# === IDE ===
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# === Mac OS ===
+.DS_Store
+
+# === Maven / Gradle ===
+target/
+build/
+*.jar
+*.war
+*.ear
+
+# === Logs ===
+*.log
+
+# === Temporary files ===
+*.tmp
+*.swp
+*.swo
+
+# === Spring Boot specific ===
+spring.log
+*.class
+
+# === Others ===
+out/
